@@ -9,6 +9,8 @@ This project repository contains code and resources for analyzing telecommunicat
 
 ## Project Structure
 
+'''
+
 ├── .vscode/
 │   └── settings.json
 ├── .github/
@@ -29,7 +31,7 @@ This project repository contains code and resources for analyzing telecommunicat
 └── scripts/
     └── __init__.py
     └── README.md
-
+'''
 ## Getting Started
 
 Prerequisites:
