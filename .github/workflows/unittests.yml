@@ -2,9 +2,9 @@ name: Run Unit Tests
 
 on:
   push:
-    branches: [task-3]
+    branches: [main, task-3]
   pull_request:
-    branches: [task-3]
+    branches: [main, task-3]
 
 jobs:
   test:
