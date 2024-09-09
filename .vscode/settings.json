@@ -1,13 +1,10 @@
 {
-    "python.pythonPath": "C:/Users/Hp/Downloads/Teleco_data_analysis-main/venv/Scripts/python.exe",  // Specify the path to your Python interpreter
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true,  // Enable pytest
-    "python.testing.pytestArgs": [
-      "tests"  // Directory where your tests are located
-    ],
-    "python.linting.enabled": true,  // Enable linting
-    "python.linting.pylintEnabled": true,  // Enable pylint
-    "python.formatting.provider": "black",  // Enable black for formatting
-    "editor.formatOnSave": true  // Automatically format your code on save
-  }
-  
+    "python.testing.unittestEnabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "test_*.py"
+    ]
+}
